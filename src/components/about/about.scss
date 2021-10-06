@@ -1,0 +1,17 @@
+.about{
+    background-color: rgb(235, 206, 210);
+    display: flex; //to use flex kat bawah kene kat sini type display flex tu
+     
+    .wrapper{
+        
+        overflow: hidden;
+        display: grid;
+        justify-content: center;
+        align-items:center;
+        margin: auto;
+            
+    }
+       
+}
+    
+   

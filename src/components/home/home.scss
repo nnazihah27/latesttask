@@ -1,0 +1,55 @@
+
+.home{
+    background-color:white;
+    display: flex; //to use flex kat bawah kene kat sini type display flex tu
+     
+     .left{
+         flex: 0.5;
+         overflow: hidden;
+ 
+         .imgContainer{
+             width: 600px;
+             height: 550px;
+             margin-top: 50px;
+             margin-bottom: 50px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             float: left;
+             position: relative;
+ 
+        
+             
+             img{
+                 height: 100%;
+             }
+ 
+             .right{
+                
+                 display: grid;
+                 justify-content: center;
+                 align-items:center;
+                 margin: auto;
+             }
+ 
+ 
+         }
+        
+     }
+     
+     .right{
+         flex: 0.5;
+ 
+         .wrapper{
+             width: 100%;
+             height: 100%;
+             padding-left: 50px;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+ 
+     
+         }
+         
+     }
+ }
