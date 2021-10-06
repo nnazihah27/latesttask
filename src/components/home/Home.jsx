@@ -1,12 +1,12 @@
 import "./home.scss"
+import gee from "./human.png"
 
 export default function Home() {
     return(
         <div className="home" id="home">
             <div className="left">
                 <div className="imgContainer">
-                        
-                          <img src="assets\profilelatest.png" alt="" />    
+                    <img src={gee} alt="" />    
                 </div>
             </div>
             <div className="right">
